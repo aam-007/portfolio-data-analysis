@@ -1,4 +1,4 @@
-Portfolio,Monthly_Return,Annual_Return,Monthly_Vol,Annual_Vol,Sharpe_Monthly,Sharpe_Annual,Sortino_Monthly,Max_Drawdown,Calmar,Beta_Proxy,Jensen_Alpha_Mo,Treynor_Monthly
-Equal Weight,1.66%,21.81%,0.04874,0.16884,0.228923,0.793012,0.227084,-0.236646,0.921474,1,0.00%,1.12%
-Max Sharpe Portfolio,2.25%,30.60%,0.051766,0.179324,0.329995,1.143135,0.343476,-0.173919,1.759663,0.895464,0.71%,1.91%
-Min Variance,1.23%,15.85%,0.040125,0.138997,0.172426,0.597301,0.191617,-0.153153,1.034848,0.69291,-0.08%,1.00%
+Portfolio,Monthly_Return,Annual_Return,Sharpe_Monthly,Sharpe_Annual,Jensen_Alpha_Mo,Treynor_Monthly
+Equal Weight,1.66%,21.81%,0.228923,0.793012,0.00%,1.12%
+Max Sharpe Portfolio,2.25%,30.60%,0.329995,1.143135,0.71%,1.91%
+Min Variance,1.23%,15.85%,0.172426,0.597301,-0.08%,1.00%

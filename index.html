@@ -841,7 +841,6 @@
     max-width: 100%;
   }
 
-  /* Custom charts */
   .bar-chart-svg { width: 100%; }
   .line-chart-area { fill: none; stroke-width: 2.5; }
 
@@ -1463,7 +1462,7 @@
     </table>
 
     <div class="prose reveal">
-      <p>These companies were chosen for their sector diversity, large-cap stability, varying volatility profiles, and extensive data availability. A proxy market portfolio , a synthetic benchmark , was constructed using the equally weighted average returns of these nine securities. This became the reference point for all CAPM calculations, because using the broader NIFTY 50 would create a structural mismatch with this limited asset universe. The risk-free rate was set at 5% per annum for model simplification.</p>
+      <p>These companies were chosen for their sector diversity, large-cap stability, varying volatility profiles, and extensive data availability. A proxy market portfolio , a synthetic benchmark , was constructed using the equally weighted average returns of these nine securities. This became the reference point for all CAPM calculations, because using the broader NIFTY 50 would create a structural mismatch with this limited asset universe. The risk-free rate was set at 6.5% per annum, mirroring the 10-year G-Sec yield.</p>
     </div>
 
     <div class="divider reveal"><span>The Mathematics</span></div>
@@ -1543,12 +1542,12 @@
         <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="0"></div></div>
         <div class="alloc-pct">0%</div>
       </div>
-      <div class="alloc-row" data-eq="11.11" data-opt="10.38">
+      <div class="alloc-row" data-eq="11.11" data-opt="9.00">
         <div class="alloc-ticker">EICH</div>
         <div class="alloc-bar-container"><div class="alloc-bar equal" data-w="11.11"></div></div>
         <div class="alloc-pct">11.11%</div>
-        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="10.38"></div></div>
-        <div class="alloc-pct">10.38%</div>
+        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="9.00"></div></div>
+        <div class="alloc-pct">9.00%</div>
       </div>
       <div class="alloc-row" data-eq="11.11" data-opt="0">
         <div class="alloc-ticker">HLL</div>
@@ -1557,12 +1556,12 @@
         <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="0"></div></div>
         <div class="alloc-pct">0%</div>
       </div>
-      <div class="alloc-row" data-eq="11.11" data-opt="52.16">
+      <div class="alloc-row" data-eq="11.11" data-opt="55.97">
         <div class="alloc-ticker">BRTI</div>
         <div class="alloc-bar-container"><div class="alloc-bar equal" data-w="11.11"></div></div>
         <div class="alloc-pct">11.11%</div>
-        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="52.16"></div></div>
-        <div class="alloc-pct">52.16%</div>
+        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="55.97"></div></div>
+        <div class="alloc-pct">55.97%</div>
       </div>
       <div class="alloc-row" data-eq="11.11" data-opt="0">
         <div class="alloc-ticker">LART</div>
@@ -1571,33 +1570,33 @@
         <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="0"></div></div>
         <div class="alloc-pct">0%</div>
       </div>
-      <div class="alloc-row" data-eq="11.11" data-opt="16.02">
+      <div class="alloc-row" data-eq="11.11" data-opt="13.49">
         <div class="alloc-ticker">SUN</div>
         <div class="alloc-bar-container"><div class="alloc-bar equal" data-w="11.11"></div></div>
         <div class="alloc-pct">11.11%</div>
-        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="16.02"></div></div>
-        <div class="alloc-pct">16.02%</div>
+        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="13.49"></div></div>
+        <div class="alloc-pct">13.49%</div>
       </div>
-      <div class="alloc-row" data-eq="11.11" data-opt="17.24">
+      <div class="alloc-row" data-eq="11.11" data-opt="16.33">
         <div class="alloc-ticker">TITN</div>
         <div class="alloc-bar-container"><div class="alloc-bar equal" data-w="11.11"></div></div>
         <div class="alloc-pct">11.11%</div>
-        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="17.24"></div></div>
-        <div class="alloc-pct">17.24%</div>
+        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="16.33"></div></div>
+        <div class="alloc-pct">16.33%</div>
       </div>
-      <div class="alloc-row" data-eq="11.11" data-opt="4.2">
+      <div class="alloc-row" data-eq="11.11" data-opt="5.21">
         <div class="alloc-ticker">TISC</div>
         <div class="alloc-bar-container"><div class="alloc-bar equal" data-w="11.11"></div></div>
         <div class="alloc-pct">11.11%</div>
-        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="4.2"></div></div>
-        <div class="alloc-pct">4.2%</div>
+        <div class="alloc-bar-container"><div class="alloc-bar optimized" data-w="5.21"></div></div>
+        <div class="alloc-pct">5.21%</div>
       </div>
     </div>
 
     <div class="prose reveal">
       <p>The traditional portfolio is disarmingly simple: every stock gets exactly 11.11% of the capital. No calculations, no forecasts, no assumptions required. It maximizes diversification by number of holdings and provides a clean baseline for comparison.</p>
       <p>The optimized portfolio, by contrast, was constructed using the Markowitz mean-variance framework. The model evaluates thousands of possible weight combinations, seeking the single portfolio with the highest Sharpe ratio , the best return per unit of risk. The result is striking and, at first glance, counterintuitive.</p>
-      <p>Bharti Airtel (BRTI) receives over 52% of the entire portfolio. Reliance, HDFC Bank, Hindustan Unilever, and L&amp;T receive nothing at all. Why? Because the optimizer found that Airtel had low correlation with the other assets , it moves independently. In a telecom sector powered by strong recurring cashflows and policy tailwinds, this independence makes it extraordinarily valuable to the portfolio's overall efficiency. The optimizer did not care about sector concentration. It cared about mathematical efficiency.</p>
+      <p>Bharti Airtel (BRTI) receives nearly 56% of the entire portfolio. Reliance, HDFC Bank, Hindustan Unilever, and L&amp;T receive nothing at all. Why? Because the optimizer found that Airtel had low correlation with the other assets , it moves independently. In a telecom sector powered by strong recurring cashflows and policy tailwinds, this independence makes it extraordinarily valuable to the portfolio's overall efficiency. The optimizer did not care about sector concentration. It cared about mathematical efficiency.</p>
       <p>This is exactly the difference between the intuitive, human approach to allocation and the purely mathematical one. One feels right; the other is right , at least by the math.</p>
     </div>
 
@@ -1684,7 +1683,7 @@
         </div>
         <div style="display:flex; gap:16px; align-items:center; padding:14px 0; border-bottom:1px solid var(--border);">
           <div style="width:52px; height:28px; background:linear-gradient(90deg,#70a870,#508860); border-radius:3px; flex-shrink:0;"></div>
-          <div style="font-family:var(--font-serif); font-size:16px; color:var(--text);">BRTI (Airtel) shows relatively low correlations with most assets. This is precisely why the optimizer allocates over 52% to it , its independence provides massive efficiency gains.</div>
+          <div style="font-family:var(--font-serif); font-size:16px; color:var(--text);">BRTI (Airtel) shows relatively low correlations with most assets. This is precisely why the optimizer allocates nearly 56% to it , its independence provides massive efficiency gains.</div>
         </div>
         <div style="display:flex; gap:16px; align-items:center; padding:14px 0; border-bottom:1px solid var(--border);">
           <div style="width:52px; height:28px; background:linear-gradient(90deg,#a0a060,#808040); border-radius:3px; flex-shrink:0;"></div>
@@ -1696,7 +1695,7 @@
     <div class="chart-container reveal" style="margin-top:40px;">
       <div class="chart-label">Chart 5.5(a)</div>
       <div class="chart-title">The Efficient Frontier</div>
-      <div class="chart-desc">Each point is a simulated portfolio. The frontier is the upper edge of this cloud , portfolios that offer the maximum possible return for each level of risk. The star marks the maximum Sharpe portfolio (0.409). The diamond marks the minimum volatility portfolio (0.041). The dashed line is the Capital Market Line.</div>
+      <div class="chart-desc">Each point is a simulated portfolio. The frontier is the upper edge of this cloud , portfolios that offer the maximum possible return for each level of risk. The star marks the maximum Sharpe portfolio (monthly SR: 0.330). The diamond marks the minimum volatility portfolio (monthly vol: 4.07%). The dashed line is the Capital Market Line, anchored at the risk-free rate of 6.5% p.a.</div>
       <div class="chart-canvas-wrap" id="efChart" style="height:320px;">
         <svg viewBox="0 0 560 280" class="bar-chart-svg animated-chart" id="efSvg">
           <defs>
@@ -1751,9 +1750,9 @@
             <circle cx="460" cy="152" r="2" fill="#c49040" opacity="0.4"/>
           </g>
           <polygon points="360,80 364,92 376,92 366,99 370,111 360,104 350,111 354,99 344,92 356,92" fill="var(--accent)" opacity="0.9"/>
-          <text x="385" y="78" fill="var(--accent)" font-size="9" font-family="Instrument Sans,sans-serif">Max Sharpe 0.409</text>
+          <text x="385" y="78" fill="var(--accent)" font-size="9" font-family="Instrument Sans,sans-serif">Max Sharpe 0.330</text>
           <polygon points="255,162 263,154 271,162 263,170" fill="var(--accent3)" opacity="0.8"/>
-          <text x="185" y="172" fill="var(--accent3)" font-size="9" font-family="Instrument Sans,sans-serif">Min Vol 0.041</text>
+          <text x="185" y="172" fill="var(--accent3)" font-size="9" font-family="Instrument Sans,sans-serif">Min Vol 4.07%</text>
           <circle cx="360" cy="140" r="7" fill="none" stroke="#5090c8" stroke-width="1.5"/>
           <text x="370" y="152" fill="#5090c8" font-size="8" font-family="Instrument Sans,sans-serif">Equal Wt</text>
         </svg>
@@ -1763,7 +1762,7 @@
     <div class="chart-container reveal" style="margin-top:40px;">
       <div class="chart-label">Chart 4.6(b) / 5.6(a)</div>
       <div class="chart-title">Portfolio Cumulative Returns, 2019 – 2026</div>
-      <div class="chart-desc">The most visually compelling chart in the study. Both portfolios fell sharply in the COVID crash of early 2020, then recovered. But from 2021 onward, the optimized portfolio pulls away decisively , ending with roughly 20% cumulative return versus 15% for the equal-weighted strategy.</div>
+      <div class="chart-desc">The most visually compelling chart in the study. Both portfolios fell sharply in the COVID crash of early 2020, then recovered. But from 2021 onward, the optimized portfolio pulls away decisively , ending with approximately 500% cumulative return versus approximately 270% for the equal-weighted strategy.</div>
       <div class="chart-canvas-wrap" style="height:280px;">
         <svg viewBox="0 0 580 260" class="bar-chart-svg animated-chart" id="cumSvg">
           <defs>
@@ -1791,9 +1790,9 @@
             points="60,180 90,170 120,200 130,210 150,180 160,168 170,162 185,155 200,149 215,143 230,138 245,134 260,130 275,127 290,124 305,121 320,118 335,115 350,112 365,110 380,108 395,106 410,104 425,102 440,100 455,99 470,97 485,96 500,95 520,93"
             fill="none" stroke="#5090c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           <line x1="68" y1="20" x2="90" y2="20" stroke="url(#optGrad)" stroke-width="2.5"/>
-          <text x="95" y="34" fill="var(--accent)" font-size="9" font-family="Instrument Sans,sans-serif">Optimized (+20%)</text>
-          <line x1="200" y1="30" x2="222" y2="30" stroke="#5090c8" stroke-width="2"/>
-          <text x="227" y="34" fill="#5090c8" font-size="9" font-family="Instrument Sans,sans-serif">Equal Weight (+15%)</text>
+          <text x="95" y="34" fill="var(--accent)" font-size="9" font-family="Instrument Sans,sans-serif">Optimized (~500%)</text>
+          <line x1="210" y1="30" x2="232" y2="30" stroke="#5090c8" stroke-width="2"/>
+          <text x="237" y="34" fill="#5090c8" font-size="9" font-family="Instrument Sans,sans-serif">Equal Weight (~270%)</text>
           <line x1="130" y1="195" x2="130" y2="215" stroke="var(--warm-red)" stroke-width="0.8" stroke-dasharray="3,2"/>
           <text x="132" y="250" fill="var(--warm-red)" font-size="7.5" font-family="Instrument Sans,sans-serif">COVID</text>
           <line x1="200" y1="149" x2="200" y2="132" stroke="rgba(200,169,110,0.4)" stroke-width="0.8" stroke-dasharray="3,2"/>
@@ -1820,63 +1819,63 @@
 
     <div class="metrics-grid">
       <div class="metric-card reveal">
-        <div class="metric-label">Sharpe Ratio , Return per Unit of Total Risk</div>
+        <div class="metric-label">Sharpe Ratio (Monthly) , Return per Unit of Total Risk</div>
         <div class="metric-compare">
           <div class="metric-val">
-            <div class="metric-num opt">0.409</div>
+            <div class="metric-num opt">0.330</div>
             <div class="metric-tag">Optimized</div>
           </div>
           <div class="metric-vs">vs</div>
           <div class="metric-val">
-            <div class="metric-num">0.335</div>
+            <div class="metric-num">0.229</div>
             <div class="metric-tag">Equal Weight</div>
           </div>
         </div>
-        <div class="metric-winner">Optimized Wins +22%</div>
+        <div class="metric-winner">Optimized Wins +44%</div>
       </div>
 
       <div class="metric-card reveal reveal-delay-1">
-        <div class="metric-label">Beta , Sensitivity to Market Movements</div>
+        <div class="metric-label">Annualised Sharpe Ratio</div>
         <div class="metric-compare">
           <div class="metric-val">
-            <div class="metric-num opt">0.91</div>
+            <div class="metric-num opt">1.143</div>
             <div class="metric-tag">Optimized</div>
           </div>
           <div class="metric-vs">vs</div>
           <div class="metric-val">
-            <div class="metric-num">1.01</div>
+            <div class="metric-num">0.793</div>
             <div class="metric-tag">Equal Weight</div>
           </div>
         </div>
-        <div class="metric-winner">Lower Risk Profile</div>
+        <div class="metric-winner">Optimized Wins +44%</div>
       </div>
 
       <div class="metric-card reveal">
         <div class="metric-label">Treynor Ratio , Return per Unit of Systematic Risk</div>
         <div class="metric-compare">
           <div class="metric-val">
-            <div class="metric-num opt">0.024</div>
+            <div class="metric-num opt">1.91%</div>
             <div class="metric-tag">Optimized</div>
           </div>
           <div class="metric-vs">vs</div>
           <div class="metric-val">
-            <div class="metric-num">0.016</div>
+            <div class="metric-num">1.12%</div>
             <div class="metric-tag">Equal Weight</div>
           </div>
         </div>
-        <div class="metric-winner">Optimized Wins +50%</div>
+        <div class="metric-winner">Optimized Wins +70%</div>
       </div>
 
       <div class="metric-card reveal reveal-delay-1">
         <div class="metric-label">Jensen's Alpha , Excess Return over CAPM</div>
         <div class="metric-compare">
           <div class="metric-val">
-            <div class="metric-num opt">+0.007</div>
+            <div class="metric-num opt">+0.71%</div>
             <div class="metric-tag">Optimized</div>
           </div>
           <div class="metric-vs">vs</div>
           <div class="metric-val">
-            <div class="metric-num" style="font-size:28px;">-0.0002</div>
+            <div class="metric-num" style="font-size:28px;">0.00%</div>
             <div class="metric-tag">Equal Weight</div>
           </div>
         </div>
@@ -1885,7 +1884,7 @@
     </div>
 
     <div class="prose reveal">
-      <p>Every single metric favors the optimized portfolio. The Sharpe ratio is 22% higher , meaning for every unit of risk taken, the optimized portfolio delivered materially more return. The beta is lower, meaning less sensitivity to market swings. The Treynor ratio is 50% better. And crucially, the optimized portfolio shows a positive Jensen's Alpha while the equal-weighted portfolio shows a near-zero or slightly negative alpha , implying the equal-weight strategy barely kept pace with what CAPM would predict it should earn.</p>
+      <p>Every single metric favors the optimized portfolio. The monthly Sharpe ratio is 44% higher , meaning for every unit of risk taken, the optimized portfolio delivered materially more return. The Treynor ratio is 70% better. And crucially, the optimized portfolio shows a positive Jensen's Alpha of 0.71% while the equal-weighted portfolio shows 0.00% , implying the equal-weight strategy returned exactly what its systematic risk exposure would predict, with no excess performance whatsoever.</p>
     </div>
 
     <div class="divider reveal"><span>Hypothesis Testing</span></div>
@@ -1896,7 +1895,7 @@
         <div>
           <div class="h-title">Active and passive strategies differ in their impact on portfolio returns</div>
           <div class="h-result">Validated</div>
-          <div class="h-desc">The optimized portfolio delivered cumulative returns of ~20% versus ~15% for the equal-weighted portfolio , a difference of 500 basis points over the study period. Portfolio construction strategy matters enormously, even when the underlying assets are identical.</div>
+          <div class="h-desc">The optimized portfolio delivered approximately 500% cumulative return versus approximately 270% for the equal-weighted portfolio , a difference of roughly 23,000 basis points over the study period. Portfolio construction strategy matters enormously, even when the underlying assets are identical.</div>
         </div>
       </div>
       <div class="hypothesis-item reveal reveal-delay-1">
@@ -1904,7 +1903,7 @@
         <div>
           <div class="h-title">Diversification level and asset correlation significantly influence portfolio risk</div>
           <div class="h-result">Validated</div>
-          <div class="h-desc">Correlation clusters (HDBK-LART at 0.61, LART-TITN at 0.57) and outliers (HLL near zero with most assets) directly shaped portfolio risk. The optimized portfolio's lower beta (0.91 vs 1.01) confirmed that strategic correlation management reduces systematic exposure.</div>
+          <div class="h-desc">Correlation clusters (HDBK–LART at 0.61, LART–TITN at 0.57) and outliers (HLL near zero with most assets) directly shaped portfolio risk. The optimized portfolio's higher Treynor ratio (1.91% vs 1.12%) confirmed that strategic correlation management reduces systematic exposure and improves return per unit of market risk.</div>
         </div>
       </div>
       <div class="hypothesis-item reveal">
@@ -1912,7 +1911,7 @@
         <div>
           <div class="h-title">Systematic and unsystematic risk significantly affect risk-adjusted returns</div>
           <div class="h-result">Validated</div>
-          <div class="h-desc">The optimized portfolio recorded higher Sharpe (0.409), higher Treynor (0.024), and positive Jensen's Alpha (0.007). The equal-weighted portfolio showed near-negative alpha, implying its returns did not exceed what its systematic risk exposure (beta) would predict.</div>
+          <div class="h-desc">The optimized portfolio recorded a higher monthly Sharpe ratio (0.330 vs 0.229), higher Treynor ratio (1.91% vs 1.12%), and positive Jensen's Alpha (0.71% vs 0.00%). The equal-weighted portfolio's zero alpha implies its returns did not exceed what its systematic risk exposure would predict.</div>
         </div>
       </div>
       <div class="hypothesis-item reveal reveal-delay-1">
@@ -1920,7 +1919,7 @@
         <div>
           <div class="h-title">Mean-variance optimization leads to higher portfolio efficiency</div>
           <div class="h-result">Validated</div>
-          <div class="h-desc">The optimized portfolio sits on the efficient frontier at the maximum Sharpe ratio point (0.409). Asset allocation departed significantly from equal weighting, concentrating capital in assets with the most favorable return-risk-correlation profiles, particularly Bharti Airtel's outsized allocation.</div>
+          <div class="h-desc">The optimized portfolio sits on the efficient frontier at the maximum Sharpe ratio point (monthly SR: 0.330). Asset allocation departed significantly from equal weighting, concentrating capital in assets with the most favorable return-risk-correlation profiles, particularly Bharti Airtel's dominant 55.97% allocation.</div>
         </div>
       </div>
       <div class="hypothesis-item reveal">
@@ -1928,7 +1927,7 @@
         <div>
           <div class="h-title">Modern portfolio construction generates superior risk-adjusted performance</div>
           <div class="h-result">Validated</div>
-          <div class="h-desc">The optimized strategy outperformed the traditional approach across every measured dimension: absolute returns, Sharpe ratio, Treynor ratio, Jensen's Alpha, and cumulative performance. The theoretical advantages of modern portfolio theory were preserved , at least within this controlled empirical framework.</div>
+          <div class="h-desc">The optimized strategy outperformed the traditional approach across every measured dimension: absolute returns (~500% vs ~270%), monthly Sharpe ratio (0.330 vs 0.229), Treynor ratio (1.91% vs 1.12%), and Jensen's Alpha (0.71% vs 0.00%). The theoretical advantages of modern portfolio theory were preserved within this controlled empirical framework.</div>
         </div>
       </div>
     </div>
@@ -1978,11 +1977,11 @@
     <div class="limitation-list">
       <div class="limitation-item reveal">
         <div class="lim-marker">LIMIT 01</div>
-        <div class="lim-text">The risk-free rate was set at 5% p.a. rather than the more realistic 6.5%–7.5% (a 10-year G-Sec yield). This simplified modelling choice affects all ratio calculations, though the academic conclusions remain directionally valid.</div>
+        <div class="lim-text">The risk-free rate was set at 6.5% p.a., mirroring the 10-year G-Sec yield. While this is a reasonable proxy, the actual G-Sec yield fluctuated between 6.5% and 7.5% over the study period, introducing a degree of approximation into all ratio calculations.</div>
       </div>
       <div class="limitation-item reveal">
         <div class="lim-marker">LIMIT 02</div>
-        <div class="lim-text">The study uses a synthetic benchmark constructed from the nine selected stocks. This creates circularity , any portfolio built from these stocks will naturally be highly correlated with this benchmark. Using NIFTY 50 would introduce a different kind of mismatch.</div>
+        <div class="lim-text">The study uses a synthetic benchmark constructed from the nine selected stocks. This creates circularity , any portfolio built from these stocks will naturally be highly correlated with this benchmark. Using NIFTY 50 would introduce a different kind of mismatch given the restricted asset universe.</div>
       </div>
       <div class="limitation-item reveal">
         <div class="lim-marker">LIMIT 03</div>
@@ -2021,19 +2020,19 @@
     <div style="margin: 48px 0;" class="reveal">
       <div class="finding-strip">
         <div class="finding-icon">&#8593;</div>
-        <div class="finding-text">The optimized portfolio achieved a Sharpe ratio of <strong>0.409 vs 0.335</strong> , superior returns per unit of total risk, a difference of approximately 22%.</div>
-      </div>
-      <div class="finding-strip">
-        <div class="finding-icon">&#8595;</div>
-        <div class="finding-text">The optimized portfolio carried <strong>lower systematic risk</strong> (beta 0.91 vs 1.01), demonstrating that better returns do not always require more risk.</div>
+        <div class="finding-text">The optimized portfolio achieved a monthly Sharpe ratio of <strong>0.330 vs 0.229</strong> , superior returns per unit of total risk, a difference of approximately 44%.</div>
       </div>
       <div class="finding-strip">
         <div class="finding-icon">&#8593;</div>
-        <div class="finding-text">Cumulative returns of approximately <strong>20% vs 15%</strong> over the study period , a difference of 500 basis points, purely from the construction methodology.</div>
+        <div class="finding-text">The optimized portfolio achieved an annualised Sharpe ratio of <strong>1.143 vs 0.793</strong> for the equal-weighted portfolio, while also delivering a higher Treynor ratio of <strong>1.91% vs 1.12%</strong>.</div>
+      </div>
+      <div class="finding-strip">
+        <div class="finding-icon">&#8593;</div>
+        <div class="finding-text">Cumulative returns of approximately <strong>~500% vs ~270%</strong> over the study period , a difference of roughly 23,000 basis points, purely from the construction methodology.</div>
       </div>
       <div class="finding-strip">
         <div class="finding-icon">&#43;</div>
-        <div class="finding-text"><strong>Positive Jensen's Alpha</strong> of 0.007 for the optimized portfolio, versus near-negative alpha for the equal-weighted approach , confirming genuine outperformance above the CAPM benchmark.</div>
+        <div class="finding-text"><strong>Positive Jensen's Alpha</strong> of 0.71% for the optimized portfolio, versus 0.00% for the equal-weighted approach , confirming genuine outperformance above the CAPM benchmark.</div>
       </div>
       <div class="finding-strip">
         <div class="finding-icon">&#9670;</div>
@@ -2129,17 +2128,14 @@
     const idx = getCurrentIdx();
     const cur = SECTIONS[idx];
 
-    // Nav dots
     document.querySelectorAll('.nav-dot').forEach(dot => {
       dot.classList.toggle('active', dot.getAttribute('data-section') === cur);
     });
 
-    // Switcher buttons
     document.querySelectorAll('.switcher-btn').forEach(btn => {
       btn.classList.toggle('active', btn.getAttribute('data-target') === cur);
     });
 
-    // Arrow dim states
     const prev = document.getElementById('prevBtn');
     const next = document.getElementById('nextBtn');
     if (prev) prev.setAttribute('data-dim', idx === 0 ? 'true' : 'false');
@@ -2178,7 +2174,7 @@
       if (entry.isIntersecting) {
         allocBars.forEach(bar => {
           const w = parseFloat(bar.getAttribute('data-w'));
-          bar.style.width = (w / 52.16 * 100) + '%';
+          bar.style.width = (w / 55.97 * 100) + '%';
         });
         allocObserver.disconnect();
       }
