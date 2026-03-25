@@ -1,3 +1,4 @@
-Portfolio,Beta,Jensen Alpha,Treynor Ratio
-Equal Weight,1.1362527125936235,0.009982159268849088,-0.006280574972594167
-Optimized,2.904334582987479,0.060035227286804355,0.005605173370470607
+Portfolio,Monthly_Return,Annual_Return,Monthly_Vol,Annual_Vol,Sharpe_Monthly,Sharpe_Annual,Sortino_Monthly,Max_Drawdown,Calmar,Beta_Nifty,Jensen_Alpha_Mo,Treynor_Monthly,Nifty_Monthly_Ret,Nifty_Annual_Ret
+Equal Weight,-0.69%,-8.02%,0.014739,0.051056,-0.838247,-2.903771,-0.630494,-0.040998,-1.954981,0.973931,0.74%,-1.27%,-1.49%,-16.45%
+Max Sharpe,1.82%,24.20%,0.044547,0.154317,0.287485,0.995877,0.283698,-0.047699,5.0732,2.548082,6.45%,0.50%,-1.49%,-16.45%
+Min Variance,-0.27%,-3.16%,0.019948,0.069101,-0.405402,-1.404355,-0.38477,-0.047842,-0.660002,0.783503,0.78%,-1.03%,-1.49%,-16.45%
