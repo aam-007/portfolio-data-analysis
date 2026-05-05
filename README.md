@@ -1,4 +1,4 @@
-#NOTE: Since the paper got published, the model has undergone several changes. Numbers in the paper, and the model now have a slight difference. On analsyis, the change was determined to be insignificant to the underlying qualitative conclusions. 
+## NOTE: Since the paper got published, the model has undergone several changes. Numbers in the paper, and the model now have a slight difference. On analsyis, the change was determined to be insignificant to the underlying qualitative conclusions. 
 
 # Portfolio Construction and Performance Evaluation
 ## A Comparative Study of Traditional and Modern Approaches
